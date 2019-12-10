@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/img"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="17sp"
+        tools:text="Six herbs to control hypertension and diabetes - Times of India" />
+
+    <TextView
+        android:id="@+id/publishedAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        tools:text="PUBLISHED AT:2019-12-09T09:30:00Z" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"
+        tools:text="Diabetes and high blood pressure are amongst the most common lifestyle diseases. Both the conditions, if not addressed right away can lead to other major health issues including stroke, impaired vision, heart attack, kidney damage, congestive heart failure, v… [+421 chars]" />
+</LinearLayout>
+
+
+
